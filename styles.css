@@ -16,6 +16,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    border-radius: 5px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 4px 10px #000;
     border-bottom: 1px solid #000000;
@@ -53,5 +54,10 @@ p{text-transform: uppercase;
                 text-decoration: none;
                 font-weight: 500;
                 transition: all .3s ease-in-out;
+             }
+             img  {
+                width: 320px;
+                display: flex;
+                
              }
         
