@@ -4,61 +4,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="styles.css" type="text/css">
 </head>
 <body>
   
-<header>
-<div class="logo">logo</div>
 <nav>
-<a href="#">A Propos</a>
-<a href="#">Réalisations</a>
-<a href="#">Contact</a>
-</nav>
-  </header>  
+    <div class="logo">Adam Bechikh</div>
+    <ul>
+        <li><a href="#">A Propos</a></li>
+        <li><a href="#">Réalisations</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>  
  <main>
-  <div>
-  <h3> Adam Bechikh</h3> 
-  <h2>Developpeur Web Graphiste</h2> 
-  </div>
-  <Nav>
-    <div class="intro">Je m'appelle Adam, j'ai 23 ans et je suis actuellement en formation dans le domaine du développement web. Passionné par le numérique, j'explore les nombreuses possibilités qu'offre cette branche en pleine expansion. Curieux et ouvert d'esprit, je cherche encore la voie qui me correspondra le mieux dans cet univers vaste et varié. Cette période d'apprentissage est pour moi l'occasion de développer de nouvelles compétences et de mieux définir mes aspirations professionnelles.
-<nav>
-<img src="" alt="">
-<h3>développement Web</h3>
-<p>HTML/CSS : Maîtrise des langages de base pour structurer et styliser des pages web, avec un bon niveau de responsive design pour s'adapter aux différents écrans.</p>
-<img src="" alt="">
-<h3>Competence 2</h3>
-<p></p>
-<img src="" alt="">
-<h3>Competence 3</h3>
-<p></p>
-<nav></nav>
-<div>
-<div class="cart"></div>
-<div class="buttons-container">
-<a class="button primary" href="">Me Contacter</a> 
-<h2>Mes dernières réalisations</h2>
- <div class="projects" style="display: flex; justify-content: center; flex-wrap: wrap;">
-<div class="project">
-</div>
-<a href="http://127.0.0.1:5500/" target="_blank"><img src="avatar.jpg"></a> 
-<div class="project">
-<a href="http://127.0.0.1:5503/index.html" target="_blank"><img src="sch.jpg"></a>     
-</div>
-<section>
-<img src="" alt="">
-<img src="" alt="">
-<img src="" alt="">
-</section>
-</div>
-<section class="Témoignages">
- <h2>Témoignages</h2>
- 
-</section>
+   
+    <section id="introduction">
+        <div class="bloc-gauche">
+            <h3> Adam Bechikh</h3> 
+            <h2>Developpeur Web Graphiste</h2> 
+            <p> m'appelle- Adam, j'ai 23 ans et je suis actuellement en formation dans le domaine du développement web. Passionné par le numérique, j'explore les nombreuses possibilités qu'offre cette branche en pleine expansion. Curieux et ouvert d'esprit, je cherche encore la voie qui me correspondra le mieux dans cet univers vaste et varié. Cette période d'apprentissage est pour moi l'occasion de développer de nouvelles compétences et de mieux définir mes aspirations professionnelles.</p>
+            <a class="button primary" href="">Me Contacter</a> 
+        </div>
+        <div class="hero">
+           <img src="montagne.jpg" class="hero-background">
+            <div class="hero-text">
+              <h1 style="font-size:50px">HELLO I'M ADAM</h1>
+              <p>And I'm a Front End Developer</p>
+              <button>Hire me</button>
+            </div>
+          </div>
+        <div class="bloc-droit">
+            <img src="" alt="">
+        </div>
+    </section> 
+    <section id="competences">
+        <div class="competence">
+            <img src="" alt="">
+            <h3>développement Web</h3>
+            <p>HTML/CSS : Maîtrise des langages de base pour structurer et styliser des pages web, avec un bon niveau de responsive design pour s'adapter aux différents écrans.</p><img src="" alt="">
+        </div>
+        <div class="competence">
+            <img src="" alt="">
+            <h3>développement Web</h3>
+            <p>HTML/CSS : Maîtrise des langages de base pour structurer et styliser des pages web, avec un bon niveau de responsive design pour s'adapter aux différents écrans.</p><img src="" alt="">
+        </div>
+        <div class="competence">
+            <img src="" alt="">
+            <h3>développement Web</h3>
+            <p>HTML/CSS : Maîtrise des langages de base pour structurer et styliser des pages web, avec un bon niveau de responsive design pour s'adapter aux différents écrans.</p><img src="" alt="">
+        </div>
+    </section>
+    <section id="portolio">
+        <h2>Mes dernières réalisations</h2>
+        <div class="projects">
+            <div class="project">
+                <a href="https://adam-latoile.github.io/album" target="_blank">
+                    <img src="avatar.jpg">
+                </a>
+                <h2>Shop</h2>
+            </div>
+            <div class="project">
+                <a href="https://adam-latoile.github.io/shop" target="_blank">
+                    <img src="sch.jpg">
+                </a>
+                
+                <h2>Album</h2>
+            </div>  
+        </div>
+    </section>
 
-    </div>
-  </Nav>  
+    <section id="temoignages">
+        <h2>Témoignages</h2>
+        <div class="temoignages-containeur">
+            <div class="temoignage">
+                <p>texte du temoignage</p>
+                <div class="information">
+                    <div class="bloc-gauche">
+                        <img class="avatar" src="" alt="">
+                    </div>
+                    <div class="bloc-droit">
+                        <div class="etoiles"></div>
+                        <h3>Nom prenom</h3>
+                        <p>job entreprise</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
  </main>
+ <footer>
+    <div class="bloc-gauche">
+        <h2> </h2> 
+        <h3>Travaillons ensemble !</h3> 
+        <p>Bonjour !
+            Vous êtes à la recherche d’un développeur web capable de donner vie à vos idées et d’apporter des solutions sur mesure à vos besoins digitaux ? En tant que développeur web, je me spécialise dans la création de sites internet performants, intuitifs et centrés sur l’utilisateur. Mon objectif est de vous offrir un service sur mesure, en respectant vos attentes et en assurant un suivi rigoureux de votre projet du début à la fin.<p>    
+    </div>
+    <div class="bloc-droit">
+        <img src="" alt="">
+        <a class="button primary" href="">Me Contacter</a> 
+    </div>
+ </footer>
 </body>
 </html>

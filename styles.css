@@ -1,13 +1,14 @@
 * {
     margin: 0;
-    padding: 10;
+    padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
 
+
 body {
-    background-color: #797373;
-    color: #000000;
+    background-color: #ffffff;
+    color: #ffffff;
 }
 
 /* Header */
@@ -16,48 +17,174 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    border-radius: 5px;
-    background-color: rgb(255, 255, 255);
+    background-color: #183153;
     box-shadow: 0 4px 10px #000;
     border-bottom: 1px solid #000000;
 }
+nav  {
+    background-color: rgb(0, 0, 0);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    }
+    .logo{
+    display: flex;
+    flex-direction: column;
+    
+    color: #ba79f8;
+    }
+    
+li ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #000000;
+    
+}
+ul{
+   display: flex;
+   list-style: none;
+}
+.hero-background{
+    width: 100vw;
+    height: 100vh;
+    background: url("images/montagne.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .hero .titles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+ }
+ 
+ .hero h1, .hero p{
+    margin: 0;
+    text-transform: uppercase;
+    color: white;
+ }
+ .hero p{
+    font-weight: 400;
+ }
 h1, h2{
     text-transform: uppercase;
     text-align: center;
     text-decoration:none ;
     list-style: none;
     color: #000;}
+    h3{
+        text-align: center;
+    }
+    h2 .project{
+        text-align: center;
+    }
 
 p{text-transform: uppercase;
     text-align: center;
     text-decoration:none ;
     list-style: none;
-    color: #000000;}
-    a{
-        display: flex;
-       text-align: end;
-        color: #000000;
-        margin-right: 10px;
-        text-decoration: none;}
+    color: #000000;
+}
+a{
+    display: flex;
+    text-align: end;
+    color: #ffffff;
+    margin-right: 10px;
+    text-decoration: none;
+}
+h3 #text{
+    color: rgb(0, 0, 0);
+}
         
-     .button:hover{
-            border: solid 2.5px #ba79f8;}
-            
-        .button{
-                width: fit-content;
+.button{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 16px;
+    border-radius: 8px;
+    border: solid 2.5px #000000;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+    }
+         
+         .button:hover{
+            border: solid 2.5px #ba79f8;
+         }
+         
+         .buttons-container{
+            display: flex;
+            justify-content: center;
+         }
+         .primary{
+            background: #000000;
+            color: white;
+            display: flex;
+            justify-content: center;
+         }
+         
+         .primary:hover{
+            background: yellow;
+         }
+
+         nav p {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin-bottom: 2rem;}
+        img{
                 display: flex;
-                align-items: center;
-                justify-content: center;
-                padding: 8px 16px;
-                border-radius: 8px;
-                border: solid 2.5px #000000;
-                text-decoration: none;
-                font-weight: 500;
-                transition: all .3s ease-in-out;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    border-radius: 40px;
+    
              }
-             img  {
-                width: 320px;
-                display: flex;
-                
-             }
+ .project:hover img {
+    transform: scale(1.1);
+    
+ }            
+a #portfolio{
+   display:flex ; 
+   justify-content: center;
+   
+   
+} 
+
+.projects{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+    
+}   
+h2{
+    margin: 40px;
+}     
+
+p footer {
+    color:rgb(0, 0, 0);}
+    
+#competences { display: flex;
+    gap: 20px;
+
+}
+footer .bloc-gauche p{
+height: 200px;
+width: 200px;    
+color: #000000;
+}
+
         
