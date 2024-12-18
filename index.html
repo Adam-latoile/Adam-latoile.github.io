@@ -2,14 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon"type="x-icon" href="images/Batman-Logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
   
 <nav>
     <div class="logo">Adam Bechikh</div>
+    <a href="http://127.0.0.1:5501/"><img src="images/Batman-Logo(1).png" alt="Logo">
     <ul>
         <li><a href="#">A Propos</a></li>
         <li><a href="#">Réalisations</a></li>
@@ -20,60 +25,65 @@
    
     <section id="introduction">
         <div class="bloc-gauche">
-            <h3> Adam Bechikh</h3> 
-            <h2>Developpeur Web Graphiste</h2> 
-            <p> m'appelle- Adam, j'ai 23 ans et je suis actuellement en formation dans le domaine du développement web. Passionné par le numérique, j'explore les nombreuses possibilités qu'offre cette branche en pleine expansion. Curieux et ouvert d'esprit, je cherche encore la voie qui me correspondra le mieux dans cet univers vaste et varié. Cette période d'apprentissage est pour moi l'occasion de développer de nouvelles compétences et de mieux définir mes aspirations professionnelles.</p>
-            <a class="button primary" href="">Me Contacter</a> 
-        </div>
-        <div class="hero">
-           <img src="montagne.jpg" class="hero-background">
-            <div class="hero-text">
-              <h1 style="font-size:50px">HELLO I'M ADAM</h1>
-              <p>And I'm a Front End Developer</p>
-              <button>Hire me</button>
-            </div>
-          </div>
-        <div class="bloc-droit">
-            <img src="" alt="">
+            <h2>Developpeur Web/Graphiste</h2> 
+            <p> Bonjour je m'appelle Adam, j'ai 23 ans et je suis actuellement en formation dans le domaine du développement web. Passionné par le numérique, j'explore les nombreuses possibilités qu'offre cette branche en pleine expansion. Curieux et ouvert d'esprit, je cherche encore la voie qui me correspondra le mieux dans cet univers vaste et varié. Cette période d'apprentissage est pour moi l'occasion de développer de nouvelles compétences et de mieux définir mes aspirations professionnelles.</p>
+            <a download="" href="ADAM BECHIKH.pdf" class="button button--ghost">
+                Télécharger mon CV</a> 
         </div>
     </section> 
     <section id="competences">
         <div class="competence">
-            <img src="" alt="">
-            <h3>développement Web</h3>
-            <p>HTML/CSS : Maîtrise des langages de base pour structurer et styliser des pages web, avec un bon niveau de responsive design pour s'adapter aux différents écrans.</p><img src="" alt="">
+            <i class="fa-solid fa-pen-nib fa-shake" style="color: #000000;"></i>
+            <h3>Créativité</h3>
+            <p>Curieux et imaginatif, j’aime trouver des idées nouvelles et explorer des approches innovantes pour résoudre les problèmes et donner vie à des projets uniques.
+
+
         </div>
         <div class="competence">
-            <img src="" alt="">
-            <h3>développement Web</h3>
-            <p>HTML/CSS : Maîtrise des langages de base pour structurer et styliser des pages web, avec un bon niveau de responsive design pour s'adapter aux différents écrans.</p><img src="" alt="">
+            
+            <i class="fa-solid fa-stairs fa-bounce" style="color: #000000;"></i>
+            <h3>Persévérance</h3>
+            <p>Je fais preuve de détermination et de résilience pour surmonter les défis, en gardant un engagement constant jusqu’à la réussite des objectifs fixés.</p>
         </div>
         <div class="competence">
-            <img src="" alt="">
-            <h3>développement Web</h3>
-            <p>HTML/CSS : Maîtrise des langages de base pour structurer et styliser des pages web, avec un bon niveau de responsive design pour s'adapter aux différents écrans.</p><img src="" alt="">
+           
+            <i class="fa-solid fa-fire fa-beat-fade" style="color: #000000;"></i>
+            
+            <h3>Motivation</h3>
+            <p>Ma motivation me pousse à donner le meilleur de moi-même dans tout ce que j'entreprends. Curieux et persévérant, je sais rester concentré sur mes objectifs et transformer les défis en opportunités d’apprentissage et de croissance.</p><img src="" alt="">
         </div>
     </section>
     <section id="portolio">
+        <div>
         <h2>Mes dernières réalisations</h2>
+    </div>
+    
         <div class="projects">
             <div class="project">
                 <a href="https://adam-latoile.github.io/album" target="_blank">
-                    <img src="avatar.jpg">
+                    <img src="images/sch.jpg">
                 </a>
-                <h2>Shop</h2>
+                <h2>Album </h2>
             </div>
             <div class="project">
                 <a href="https://adam-latoile.github.io/shop" target="_blank">
-                    <img src="sch.jpg">
+                    <img src="images/avatar.jpg">
                 </a>
                 
-                <h2>Album</h2>
+                <h2>Shop</h2>
+                </div>
+
+                <div class="project">
+                    <a href="https://adam-latoile.github.io/siteactu" target="_blank">
+                        <img src="images/naingentil.webp">
+                    </a>
+                    
+                    <h2>Site Actu</h2>
             </div>  
         </div>
     </section>
 
-    <section id="temoignages">
+    <!--<section id="temoignages">
         <h2>Témoignages</h2>
         <div class="temoignages-containeur">
             <div class="temoignage">
@@ -90,7 +100,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
 
  </main>
  <footer>
