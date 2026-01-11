@@ -10,7 +10,7 @@ title: Accueil
 
 Actuellement étudiant à Epitech, j'ai appris à penser différemment plutôt qu'à simplement coder. Je vois le code comme un terrain de jeu où je transforme des défis techniques en interfaces soignées qui ne se consultent pas, mais se vivent.
 
-[Télécharger mon CV](ADAM_BECHIKH.pdf){: .button}
+[Télécharger mon CV](</asset/CV_Adam_Bechikh_ATS%20(1).pdf>){: .button target="\_blank"}
 
 </div>
 </section>

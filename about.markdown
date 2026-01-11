@@ -11,21 +11,39 @@ permalink: /about/
 
 <div class="formation-box" markdown="1">
 <i class="fa-solid fa-graduation-cap"></i>
-### 2023 - Aujourd'hui
-**Web@cademie by Epitech**
-*Titre Architecte Web (Niveau 5)*
+### 2025 - 2027
+**Epitech - L'école de l'excellence informatique**
+*(Titre 5 RNCP - BAC+2), Intégrateur - Développeur Web*
 
 Formation intensive basée sur la pédagogie par projets. Apprentissage des langages web modernes, de l'architecture logicielle et du travail en équipe.
 
 </div>
 
 <div class="formation-box" markdown="1">
-<i class="fa-solid fa-school"></i>
-### 2018 - 2019 (Exemple)
-**Nom de ton Lycée / École**
-*Baccalauréat / Autre diplôme*
+<i class="fa-solid fa-graduation-cap"></i>
+### 2024 - 2025
+**emlyon business school**
+*Certificat Conception & Développement WebCertificat Conception & Développement Web*
 
-Spécialité ou option suivie. Mention ou détails pertinents si tu le souhaites.
+Formation axée sur le développement web front-end et la gestion de projet digital.
+<br>
+Compétences acquises :
+HTML, CSS, JavaScript
+Conception UX/UI avec Figma
+<br>
+Bases de Node.js et Express.js
+<br>
+Travail en équipe sur des projets concrets (maquettes, prototypes, mini-apps)
+<br>
+Participation à un hackathon : création d’une application web en équipe sur un temps limité, avec présentation devant un jury composé de professionnel de Microsoft, SAP et TF1
+
+</div>
+
+<div class="formation-box" markdown="1">
+<i class="fa-solid fa-school"></i>
+### 2018 - 2021
+**Lycée Polyvalent Adolphe Chérioux**
+*Baccalauréat, Technicien en Installation des Systèmes Energétiques et Climatiques (TISEC)*
 
 </div>
 
@@ -34,8 +52,6 @@ Spécialité ou option suivie. Mention ou détails pertinents si tu le souhaites
 
 <style>
 #formations {
-    padding: 2rem;
-    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -49,16 +65,14 @@ Spécialité ou option suivie. Mention ou détails pertinents si tu le souhaites
 .formations-container {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
 }
 
 .formation-box {
     background: rgba(0, 0, 0, 0.6);
     border-left: 4px solid #d3ab82;
-    border-radius: 5px;
     padding: 1.5rem;
     color: #fff;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    border: 2px solid #d3ab82;
     transition: transform 0.3s ease;
     position: relative;
 }
