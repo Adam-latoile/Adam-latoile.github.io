@@ -1,0 +1,11 @@
+title: Adam
+email: adam.bechikh@epitech.eu
+description: "Étudiant à Epitech, j'ai appris à ne pas simplement apprendre des langages, mais à penser autrement. Je vois le code comme un terrain de jeu où l'imagination n'a pas de limite : ma satisfaction réside dans la résolution de défis techniques complexes pour les traduire en interfaces si soignées qu'elles ne sont plus seulement consultées, mais vécues comme une expérience captivante."
+baseurl: ""
+url: "https://adam-latoile.github.io"
+github_username: adam-latoile
+
+# theme: minima
+
+plugins:
+  - jekyll-feed
